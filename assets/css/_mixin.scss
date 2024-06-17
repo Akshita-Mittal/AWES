@@ -1,0 +1,11 @@
+@mixin background-img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@mixin dflex_between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
